@@ -1,0 +1,31 @@
+============================================================
+LSTM MODEL RESULTS SUMMARY
+Generated: 2026-04-12 12:15:21
+============================================================
+
+PERFORMANCE METRICS
+----------------------------------------
+R² Score (Training):  0.8296 (82.96%)
+R² Score (Testing):   0.8417 (84.17%)
+MAE (Training):       36.31 EGP
+MAE (Testing):        38.80 EGP
+RMSE (Training):      70.01 EGP
+RMSE (Testing):       72.57 EGP
+MAPE (Training):      42.72%
+MAPE (Testing):       44.74%
+
+MODEL ARCHITECTURE
+----------------------------------------
+Input shape: (1, 19)
+LSTM Layer 1: 128 units, return_sequences=True, dropout=0.2
+LSTM Layer 2: 64 units, return_sequences=False, dropout=0.2
+Dense Layer 1: 32 units, ReLU, dropout=0.1
+Dense Layer 2: 16 units, ReLU
+Output Layer: 1 unit (linear)
+
+TRAINING DETAILS
+----------------------------------------
+Total Epochs: 50
+Final Training Loss: 6222.7271
+Final Validation Loss: 5266.7354
+Best Validation Loss: 5266.7354
